@@ -1,0 +1,23 @@
+.LeaderBoard-row > span {
+    padding: 8px;
+    border-left: 1px solid #EAEAEA;
+    border-bottom: 1px solid #EAEAEA;
+}
+.LeaderBoard-row > span:first-child {
+    border-left: none;
+}
+.LeaderBoard-row_number, .LeaderBoard-row_icon {
+    text-align: center;
+}
+
+.LeaderBoard-row_icon {
+    cursor: pointer;
+}
+
+.LeaderBoard-row_icon.edit {
+    color: #00B4AD;
+}
+
+.LeaderBoard-row_icon.delete {
+    color: #DA2728;
+}

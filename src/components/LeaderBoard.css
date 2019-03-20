@@ -1,0 +1,12 @@
+.LeaderBoard-add{
+    font-weight: 700;
+}
+
+.LeaderBoard-add._success{
+    color: #00b5ad
+}
+
+.LeaderBoard-add._error, .LeaderBoard-add._exists{
+    font-weight: 700;
+    color: #db2828;
+}

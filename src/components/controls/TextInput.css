@@ -1,0 +1,23 @@
+.Text-input{
+    margin: 0;
+    flex: 1 0 auto;
+    border: 1px solid rgba(34, 36, 38, .15);
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+    background: #fff;
+    text-align: center;
+    color: rgba(0, 0, 0, .87);
+    font-size: 100%;
+    box-shadow: inset 1px 1px 0 rgba(34,36,38,.15);
+}
+
+.Text-input:focus{
+    border-color: #85b7d9;
+    background: #fff;
+    color: rgba(0, 0, 0, .8);
+}
+
+.Text-input:focus::placeholder {
+    opacity: 0;
+}
